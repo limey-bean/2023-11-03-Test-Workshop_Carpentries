@@ -9,7 +9,7 @@ country: "US"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "44.48089"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-73.19301"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Mon-Tues, March 14-15th"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Thurs-Fri, March 14-15th"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:30 pm Eastern"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2024-03-14      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2024-03-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -389,7 +389,7 @@ SETUP
 Delete irrelevant sections from the setup instructions.  Each
 section is inside a 'div' without any classes to make the beginning
 and end easier to find.
-
+ 
 This is the other place where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
